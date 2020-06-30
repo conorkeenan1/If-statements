@@ -28,6 +28,17 @@ int main(){
         cout << num << " is " << diff << " less than " << max << endl;
     }
 
+    if(num >= min && num <= max){
+        cout << "\n================= if statements 3 =================" << endl;
+        cout << num << " Number is within bounds" << endl;
+    }
+
+    if(num == min || num == max){
+        cout << "\n================= if statements 4 =================" << endl;
+        cout << num << " is right on a boundary " << endl;
+
+    }
+
     cout << endl;
     return 0;
 }
